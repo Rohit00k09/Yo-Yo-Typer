@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.btn img{
+    height: 20px;
+}
+.main-part p img{
+    height: 80px;
+    
+}
+.main-part p{
+    line-height: 80px;
+}
+.main{
+    margin-top: 50px;
+}
+
+.container img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    transform: scale(1.65);
+    margin-top: 50px;
+    text-align: center;
+   padding-left: 200px;
+}
+
+.heading h1{
+    margin-top: 30px;
+    font-size: 70px;
+   
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    padding-left: 50px;
+}
+
+.pointer #main p{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 20px;
+}
+
+ .pointer a{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 20px;
+  
+}
+
+.pointer p a{
+    color: black;
+    margin-right: 5px;
+
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+ 
+}
+.btn button{
+  height: 8vh;
+  width: 90vh;
+  border-radius: 5px;
+ border: none;
+border: 3px solid steelblue;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+span h1{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.main-input-bar {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-input-bar input{
+    height: 10vh;
+    width: 95vh; 
+    border: 3px solid rgb(135, 212, 235);
+   border-radius: 10px;
+   outline-color: red;
+   font-size: 25px;
+   color: #333;
+   padding:  10px;
+   cursor: pointer;
+
+}
+
+.main-input-bar input::placeholder{
+  padding-left: 30px;
+  color: black;
+  font-size: 20px;
+ 
+}
+
+.main-input-bar input:hover{
+    border: 3px solid rgb(135, 212, 235);
+}
+
+.check{
+
+padding-left: 25vh;
+margin-top: 30px;
+font-size: 20px;
+}
+
+
+
+a[href^="#main"]{
+    color: #009583;
+    font-size: 20px;
+    margin: 3px;
+    text-decoration: none;
+
+}
+
+a[href^="#main"]:hover{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.check input{
+    transform: scale(1.65);
+    border-radius: 20px;
+    accent-color: aqua;
+    
+}
+
+.main-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.main-btn button{
+    height: 8vh;
+    width: 90vh;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(240,230,140);
+    color: #333;
+    font-weight: bold;
+border: 3px solid rgb(255,215,0);
+margin-bottom: 50px;
+box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+ }
+
+ .main-btn button:focus{
+    background-color: darkgoldenrod;
+    border: none;
+    outline: none;
+    transition: 0.65s;
+    color: #fff;
+    font-weight: normal;
+ }
+
+ .main-btn button:hover{
+    transition: 0.65s;
+    cursor: pointer;
+
+ }
+
+header{
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    margin: 0;
+    padding: 0;
+    
+}
+nav{
+    height: 70px;
+    width: 210vh;
+    background-color: #333;
+   
+}
+
+.logo{
+    line-height: 70px;
+    padding-left: 15px;
+    color: #0ef;
+    
+}
+nav ul{
+position: absolute;
+top: 0px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding-left: 80vh;
+line-height: 70px;
+
+}
+
+nav ul li{
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+   
+    line-height: 70px;
+    
+}
+
+.main-type ul li a{
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    padding: 15px;
+    cursor: pointer;
+    
+}
+
+
+.logo img:hover{
+    transform: scale(1.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+.logo img{
+    height: 50px;
+    position: absolute;
+    float: right;
+    transform: translatey(-50%);
+    display: flex;
+    line-height: 50px;
+    align-items: center;
+    justify-content: center;
+    left: 90vw;
+    top: 35px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+a[href^="#the"]{
+    text-decoration: none;
+}
+
+a[href^="#the"]:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.logo h1:after{
+    content: "";
+    position: absolute;
+    height: 8px;
+    width: 25vh;
+  background: linear-gradient(to bottom, hsl(143, 100%, 60%) 0%, #ff99cc 100%);
+    top: 50px;
+    left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+.real {
+    margin: 0;
+    padding: 0;
+    left: 0px;
+
+    height: 90vh;
+    width: 210vh;
+    
+    background-color: #333;
+    position: absolute;
+
+}
+.real-one img{
+    border: none;
+    outline: none;
+    height: 200px;
+    margin-top: 20px;
+    transition: 0.65s;
+  
+}
+
+.real-one img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    
+}
+
+
+.second-part img{
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+  top: 15px;
+  margin-left: 350px;
+  margin-top: 20px;
+  height: 450px;
+  padding-right: 60px;
+  border-radius: 20px;
+  height: 300px;
+  cursor: pointer;
+  border-radius: 50%;
+  right: 250px;
+  height: 250px;
+transition: 0.65s;
+ 
+}
+
+.second-part img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+
+
+
+.heading-part{
+ color: #fff;
+ margin-top: 120px;
+ display: flex;
+ margin: 20px;
+ margin-top: 20px;
+}
+
+ .heading-part span{
+    color: orangered;
+}
+.heading-part span{
+    position: relative;
+}
+
+.heading-part span::after{
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 50vh;
+    background-color: #fff;
+    left: 0;
+    top: 1.50vh;
+    border-left: 2px solid orange;
+    background-color: #333;
+    animation: typing 2s ease infinite;
+
+}
+
+@keyframes typing {
+    40%,60%{
+        left: 100%;
+       
+    }
+
+    80%{
+        opacity: 0;
+        color:#fff;
+    }
+    100%{
+        left: 0;
+       color: #fff;
+    }
+}
